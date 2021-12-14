@@ -1,0 +1,57 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: $card-bg;
+  max-width: 18rem;
+  padding: 1rem;
+  border-radius: 15px;
+  gap: 1rem;
+
+  &__img {
+    max-height: 16rem;
+    max-width: 16rem;
+    border-radius: 15px;
+  }
+
+  &__title {
+    color: $white;
+    font-size: 1.15rem;
+  }
+
+  &__description {
+    color: $text;
+    font-size: 1rem;
+  }
+
+  &__numbers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 1rem;
+    border-bottom: 1px $line solid;
+
+    &-item {
+      display: flex;
+      gap: 0.5rem;
+
+      &-a {
+        color: $coin;
+      }
+
+      &-b {
+        color: $text;
+      }
+    }
+  }
+
+  &__credits {
+    color: $text;
+
+    &--white {
+      color: $white;
+    }
+  }
+}
