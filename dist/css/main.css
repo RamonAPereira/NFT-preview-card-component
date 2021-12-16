@@ -9,6 +9,9 @@ p {
 ul {
   list-style: none; }
 
+a {
+  text-decoration: none; }
+
 .card {
   display: flex;
   flex-direction: column;
@@ -26,6 +29,9 @@ ul {
   .card__title {
     color: white;
     font-size: 1.15rem; }
+    .card__title:hover {
+      transition: 0.3s color ease-in;
+      color: #00fff7; }
   .card__description {
     color: #8bacda;
     font-size: 1rem; }
@@ -47,6 +53,9 @@ ul {
     color: #8bacda; }
     .card__credits--white {
       color: white; }
+      .card__credits--white:hover {
+        transition: 0.3s color ease-in;
+        color: #00fff7; }
 
 body {
   background-color: #0d192b; }

@@ -18,6 +18,11 @@
   &__title {
     color: $white;
     font-size: 1.15rem;
+
+    &:hover {
+      transition: 0.3s color ease-in;
+      color: $coin;
+    }
   }
 
   &__description {
@@ -52,6 +57,11 @@
 
     &--white {
       color: $white;
+
+      &:hover {
+        transition: 0.3s color ease-in;
+        color: $coin;
+      }
     }
   }
 }
